@@ -1,0 +1,138 @@
+﻿這是一個專為「麻豆碗粿」設計的詳細 HTML 檔案。我已根據您的要求，在最上方加入了學號與姓名，並結合了圖片 `edited-image.jpg` 呈現專業的視覺效果。
+
+```html
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>91034107 陳振瑋 - 麻豆碗粿做法介紹</title>
+    <style>
+        body {
+            font-family: "Microsoft JhengHei", Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f9f4ef;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        .student-info {
+            text-align: right;
+            color: #7f8c8d;
+            font-size: 0.9em;
+            margin-bottom: 10px;
+        }
+        h1 {
+            text-align: center;
+            color: #d35400;
+            border-bottom: 2px solid #f39c12;
+            padding-bottom: 10px;
+        }
+        .food-image {
+            width: 100%;
+            max-width: 500px;
+            display: block;
+            margin: 20px auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+        .intro {
+            background-color: #fffaf0;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+            border-left: 5px solid #e67e22;
+        }
+        .section-title {
+            color: #e67e22;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 5px;
+            margin-top: 30px;
+        }
+        .recipe-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 25px;
+            margin-top: 20px;
+        }
+        ul, ol {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        .tip-box {
+            font-size: 0.95em;
+            color: #d35400;
+            background: #fff3e0;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            color: #bdc3c7;
+            font-size: 0.8em;
+        }
+        @media (max-width: 600px) {
+            .recipe-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="student-info">學號姓名：91034107 陳振瑋</div>
+    
+    <h1>🥣 府城懷舊滋味：麻豆碗粿</h1>
+
+    <img src="004.png" alt="麻豆碗粿" class="food-image">
+
+    <div class="intro">
+        <p><strong>麻豆碗粿</strong>是南台灣最具代表性的米食點心之一。不同於北部的白色碗粿，麻豆碗粿在製作米漿時會混入滷肉汁與醬油，使色澤呈現誘人的琥珀色。內餡豐富包含鹹蛋黃、香菇與肉塊，最後淋上濃郁蒜泥醬油膏，口感 Q 彈扎實。</p>
+    </div>
+
+    <div class="recipe-grid">
+        <div class="ingredients">
+            <h2 class="section-title">🛒 必備食材</h2>
+            <ul>
+                <li><strong>米漿基底：</strong>在來米粉、溫水、醬油、五香粉。</li>
+                <li><strong>傳統內餡：</strong>豬後腿肉、鹹蛋黃、乾香菇、紅蔥頭酥。</li>
+                <li><strong>靈魂醬料：</strong>蒜泥、甜辣醬、膏狀醬油。</li>
+            </ul>
+        </div>
+
+        <div class="steps">
+            <h2 class="section-title">👨‍🍳 製作教學</h2>
+            <ol>
+                <li><strong>準備配料：</strong>將香菇與豬肉切塊後與紅蔥頭酥炒香，加入少許醬油調味備用。</li>
+                <li><strong>調製漿料：</strong>在來米粉加水拌勻，加入少量醬油調色，邊加熱邊攪拌至半糊狀。</li>
+                <li><strong>填碗：</strong>取瓷碗，放入肉塊、香菇及 1/4 顆鹹蛋黃，再倒入米漿至九分滿。</li>
+                <li><strong>炊蒸：</strong>放入蒸籠，以大火蒸約 25-30 分鐘直到中心全熟。</li>
+            </ol>
+        </div>
+    </div>
+
+    <div class="tip-box">
+        💡 內行吃法：碗粿蒸好後需稍微放涼，讓米漿組織收縮，口感會更加 Q 彈！吃的時候記得用竹籤劃開，塞入滿滿的蒜泥與醬油膏。
+    </div>
+
+    <div class="footer">
+        <p>© 2024 91034107 陳振瑋 製作 - 南台灣美食文化紀錄</p>
+    </div>
+</div>
+
+</body>
+</html>
+
+```
